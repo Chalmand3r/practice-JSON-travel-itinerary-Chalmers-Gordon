@@ -1,37 +1,69 @@
 {
-    "travel Name":"Euro trip",
-    "traveler":{
-        "name":"Chalmers",
-        "contact":{
-            "email":"traveler@Launchcode.com",
-            "phone":"123-555-5555"}
-},
-"destinations":[
-    {
-    "location":"France",
-    "arrivalDate":"2027-01-01",
-    "departureDate":"2027-01-06",
-    "activities": [
-        {"title":"Eiffel Tower",
-        "time": "10:00 AM"
-},
-        {"title":"Paris Dinner",
-        "time": "6:00 PM"
-}
-]
-}, 
-{
-    "location":"Italy",
-    "arrivalDate":"2027-01-06",
-    "departureDate":"2027-01-10",
-    "activities": [
-        {"title":"Colesseum",
-        "time": "12:10 PM"
-},
-        {"title":"Tower of Pisa",
-        "time": "2:30 PM"
-}
-]
-}
-]
+    "travel Name": "Euro trip",
+    "traveler": {
+        "name": "Chalmers",
+        "contact": {
+            "email": "traveler@Launchcode.com",
+            "phone": "123-555-5555"
+        }
+    },
+    "destinations": [
+        {
+            "location": "France",
+            "arrivalDate": "2027-01-01",
+            "departureDate": "2027-01-06",
+            "activities": [
+                {
+                    "title": "Eiffel Tower",
+                    "time": "10:00 AM"
+                },
+                {
+                    "title": "Paris Dinner",
+                    "time": "6:00 PM"
+                }
+            ],
+            "transportation": {
+                "mode": "plane",
+                "cost": "200 euros"
+            }
+        },
+        {
+            "location": "Italy",
+            "arrivalDate": "2027-01-06",
+            "departureDate": "2027-01-10",
+            "activities": [
+                {
+                    "title": "Colesseum",
+                    "time": "12:10 PM"
+                },
+                {
+                    "title": "Tower of Pisa",
+                    "time": "2:30 PM"
+                }
+            ],
+            "transportation": {
+                "mode": "bullet train",
+                "cost": "60 euros"
+            }
+        },
+        {
+            "location": "Portugal",
+            "arrivalDate": "2027-02-10",
+            "departureDate": "2027-02-17",
+            "activities": [
+                {
+                    "title": "Lisbon",
+                    "time": "12:10 PM"
+                },
+                {
+                    "title": "Beach Time",
+                    "time": "2:30 PM"
+                }
+            ],
+            "transportation": {
+                "mode": "train",
+                "cost": "5 euros"
+            }
+        }
+    ]
 }
